@@ -1,0 +1,128 @@
+main {
+	padding-top: 3rem;
+	padding-bottom: 3rem;	
+}
+
+footer {
+	padding-bottom: 2rem;
+	background-color: #343a40;
+	color: white;
+	text-align: right;
+}
+
+footer .text-muted {
+	padding-right: 2rem;
+	padding-top: 1rem;
+}
+
+table {
+	font-size: 0.9rem;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.feedback-card input[type="text"] {
+	text-transform: capitalize;
+}
+
+
+.comparison-table thead tr {
+	height: 70px;
+}
+
+.card {
+	width: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 80px;
+}
+
+.navbar .navbar-nav {
+	width: 100%;
+}
+
+
+button {
+	cursor: pointer;
+}
+
+/* Стили для Задания №3 */
+/*body {
+	background-color: #f8f8f8;
+}
+
+.item h4 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
+
+.short-description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.full-description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.full-description ul {
+	font-size: 14px;
+	color: #f588b5;
+	list-style-image: url(img/list-img.png);
+}
+
+.item-img {
+	padding: 2px;
+	background-color: black;
+}
+
+
+.feedback-card input[name="field"] {
+	width: 300px;
+	height: 30px;
+	font-size: 14px;
+	color: #007bff;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}*/
+
+
+/* Стили для Задания №4 */
+/*.feedback-card input[type="email"]:focus {
+	color: #007bff;
+	border-color: #007bff;
+} 
+
+
+.item p:first-letter {
+	font-size: 1.2rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.item-img:hover {
+	outline: none;
+}
+
+.item-img {
+	outline: 2px solid black;
+}
+*/
