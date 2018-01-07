@@ -11,6 +11,7 @@ footer {
 
 .product-card {
 	flex-grow: 1;
+	min-height: 100%;
 }
 
 .product-card .card-body {
