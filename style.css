@@ -1,6 +1,6 @@
 main {
 	padding-top: 3rem;
-	padding-bottom: 3rem;	
+	padding-bottom: 3rem;
 }
 
 footer {
@@ -11,7 +11,7 @@ footer {
 
 .product-card {
 	flex-grow: 1;
-	min-height: 100%;
+	height: 100%;
 }
 
 .product-card .card-body {
@@ -55,7 +55,7 @@ footer {
 .social-buttons li:last-child {
 	padding-right: 0;
 }
- 
+
 .social-buttons li a {
 	color: rgba(255,255,255,0.5);
 }
@@ -86,13 +86,13 @@ table {
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
 	.carousel {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 992px) { 
+@media screen and (max-width: 992px) {
 	.carousel .carousel-control-prev, .carousel .carousel-control-next {
 		display: none;
 	}
@@ -103,7 +103,7 @@ table {
 	.carousel img {
 		object-fit: cover;
 		height: calc(100vh - 58px);
-		object-position: 50% 50%; 
+		object-position: 50% 50%;
 	}
 } */
 
@@ -187,7 +187,7 @@ button {
 /*.feedback-card input[type="email"]:focus {
 	color: #007bff;
 	border-color: #007bff;
-} 
+}
 
 
 .item p:first-letter {
