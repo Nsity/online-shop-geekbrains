@@ -1,42 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 	<head>
-		<title>Интернет-магазин | Контакты</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="widtd=device-widtd, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<title>Интернет-магазин | Контакты</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 		</head>
 		<body>
 			<header class="navbar navbar-expand-sm navbar-dark bg-dark">
 				<a class="navbar-brand" href="index.html">
     				<img src="img/logo.png" height="30" alt="Логотип">
   				</a>
-				<ul class="navbar-nav justify-content-end">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Главная</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="catalog.html">Каталог</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Контакты</a>
-					</li>
-				</ul>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   	 				<span class="navbar-toggler-icon"></span>
+  				</button>
+  				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="catalog.html">Каталог</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
 			</header>
 			<main class="container">
 				<div class="row">
+					<div class="col-12 col-lg-6">
+						<h2>Адрес</h2>
+						<div>
+							<p class="mb-0"><strong>Позвоните нам</strong></p>
+							<p class="mb-0"><i class="fa fa-phone" aria-hidden="true"></i> <a class="call-phone" href="tel:495 777-777-5">495 777-777-5</a> для Москвы</p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> <a class="call-phone" href="tel:8 800 200-777-5">8 800 200-777-5</a> для регионов</p>
+						</div>
+						<div>
+							<p class="mb-0"><strong>Обратная связь</strong></p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:example@example.ru">example@example.ru</a></p>
+						</div>
+						<div>
+							<p class="mb-0"><strong>Приезжайте к нам</strong></p>
+							<p><i class="fa fa-map-pin" aria-hidden="true"></i> г. Москва, ул. Нижняя Красносельская, д. 40/12, стр. 20<p>
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad9e8c87f9a0cd0a196c1ff580b851caea92dd1dd978cab61aaf66fa72efe4963&amp;source=constructor" width="100%" height="374" frameborder="0"></iframe>
+						</div>
+					</div>
 					<div class="col-12 col-lg-6">
 						<h2>Напишите нам</h2>
 							<div class="feedback-card card mb-4">
 								<div class="card-body">
 									<form ​action=""​>
-										<fieldset>
-
-						  					<!--<label for="field">Произвольное поле для задания 3</label><br>
-											<input type="text" id="field" name="field" placeholder="Произвольное поле для задания 3"><br>-->
-
-											
+										<fieldset>											
 											<div class="form-group">
 												<label for="name">Имя</label>
 												<input type="text" class="form-control" id="name" name="name" placeholder="Имя">
@@ -60,33 +78,27 @@
 								</div>
 							</div>
 					</div>
-					<div class="col-12 col-lg-6">
-						<h2>Адрес</h2>
-						<div>
-							<p class="mb-0"><strong>Позвоните нам</strong></p>
-							<p class="mb-0">8 495 777-777-5 для Москвы</p>
-							<p>8 800 200-777-5 для регионов</p>
-						</div>
-						<div>
-							<p class="mb-0"><strong>Обратная связь</strong></p>
-							<p><a href="mailto:example@example.ru">example@example.ru</a></p>
-						</div>
-						<div>
-							<p class="mb-0"><strong>Приезжайте к нам</strong></p>
-							<p>г. Москва, ул. Нижняя Красносельская, д. 40/12, стр. 20<p>
-							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad9e8c87f9a0cd0a196c1ff580b851caea92dd1dd978cab61aaf66fa72efe4963&amp;source=constructor" width="100%" height="374" frameborder="0"></iframe>
-						</div>
-
-					</div>
 				</div>
 			</main>
 			<footer class="footer">
-				<hr>
 				<div class="container">
-					<div class="text-muted">
-						&copy;&nbsp;Все права защищены
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-8">
+							<div class="text-muted copyright">
+								&copy;&nbsp;Все права защищены
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<ul class="social-buttons">
+								<li><a href="#"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</footer>
+			<script src="bootstrap/jquery-3.2.1.js"></script>
+			<script src="bootstrap/bootstrap.min.js"></script>
 		</body>
 </html>

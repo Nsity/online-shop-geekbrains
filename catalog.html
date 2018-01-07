@@ -1,74 +1,164 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 	<head>
-		<title>Интернет-магазин | Главная</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="widtd=device-widtd, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<title>Интернет-магазин | Главная</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	</head>
 	<body>
 		<header class="navbar navbar-expand-sm navbar-dark bg-dark">
 			<a class="navbar-brand" href="index.html">
 				<img src="img/logo.png" height="30" alt="Логотип">
 			</a>
-			<ul class="navbar-nav justify-content-end">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Главная</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="catalog.html">Каталог</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contacts.html">Контакты</a>
-				</li>
-			</ul>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   	 				<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Главная</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="catalog.html">Каталог</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html">Контакты</a>
+					</li>
+				</ul>
+			</div>
 		</header>
 		<main class="container">
-			<h2>Каталог</h2>
 			<div class="row">
-				<div class="col-12 col-lg-4 d-flex align-items-stretch mb-3">
-					<div class="card align-content-end">
+				<div class="col-12 col-sm-5">
+					<h2 class="mb-4">Каталог</h2>
+				</div>
+				<div class="col-12 col-sm-7 d-sm-flex justify-content-sm-end">
+					<form action="/" method="post" class="form-inline mb-4">
+						<input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Поиск">
+    					<button class="btn btn-primary my-2 my-sm-0" type="submit">Поиск</button>
+					</form>
+				</div>
+			</div>
+			<div class="row mb-4">
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
 						<div class="card-body">
 							<div class="text-center">
-								<a href="catalog/samsung.html"><img class="img-fluid mb-4" src="img/samsung_small.jpg"></a>
+								<a href="catalog/samsung.html"><img class="img-fluid mb-4" alt="Samsung Galaxy S8" src="img/samsung_small.jpg"></a>
 							</div>
 							<h4 class="card-title">Смартфон Samsung Galaxy S8 64Gb Черный бриллиант</h4>
 							<a href="catalog/samsung.html" class="card-link">Подробнее</a>
 						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">49990р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4 d-flex align-items-stretch mb-3">
-					<div class="card align-content-end">
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
 						<div class="card-body">
 							<div class="text-center">
-								<a href="catalog/iphone.html"><img class="img-fluid mb-4" src="img/iphone_small.jpg"></a>
+								<a href="catalog/iphone.html"><img class="img-fluid mb-4" alt="Apple iPhone X" src="img/iphone_small.jpg"></a>
 							</div>
 							<h4 class="card-title">Смартфон Apple iPhone X 256GB Space Gray (MQAF2RU/A)</h4>
 							<a href="catalog/iphone.html" class="card-link">Подробнее</a>
 						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">90950р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4 d-flex align-items-stretch mb-3">
-					<div class="card align-content-end">
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
 						<div class="card-body">
 							<div class="text-center">
-								<a href="catalog/xiaomi.html"><img class="img-fluid mb-4" src="img/xiaomi_small.jpg"></a>
+								<a href="catalog/xiaomi.html"><img class="img-fluid mb-4" alt="Xiaomi Redmi 4Х" src="img/xiaomi_small.jpg"></a>
 							</div>
 							<h4 class="card-title">Смартфон Xiaomi Redmi 4Х 32GB Black</h4>
 							<a href="catalog/xiaomi.html" class="card-link">Подробнее</a>
 						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">12990р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
 					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
+						<div class="card-body">
+							<div class="text-center">
+								<a href="catalog/huawei.html"><img class="img-fluid mb-4" alt="Huawei NOVA 2i" src="img/huawei_small.jpg"></a>
+							</div>
+							<h4 class="card-title">Смартфон Huawei NOVA 2i Graphite Black</h4>
+							<a href="catalog/huawei.html" class="card-link">Подробнее</a>
+						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">18990р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
+						<div class="card-body">
+							<div class="text-center">
+								<a href="catalog/xperia.html"><img class="img-fluid mb-4" alt="Sony Xperia X" src="img/sony-xperia_small.jpg"></a>
+							</div>
+							<h4 class="card-title">Смартфон Sony Xperia X Graphite Black 4G LTE</h4>
+							<a href="catalog/xperia.html" class="card-link">Подробнее</a>
+						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">16990р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
+					<div class="card align-content-end product-card">
+						<div class="card-body">
+							<div class="text-center">
+								<a href="catalog/zenFone.html"><img class="img-fluid mb-4" alt="ASUS ZenFone 4" src="img/asus-zenfone_small.jpg"></a>
+							</div>
+							<h4 class="card-title">Смартфон ASUS ZenFone 4 Max ZC554KL 32Gb Black</h4>
+							<a href="catalog/zenFone.html" class="card-link">Подробнее</a>
+						</div>
+						<div class="card-footer price-row">
+							<div class="price font-weight-bold">15990р.</div>
+							<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="#" class="btn btn-outline-primary">Загрузить еще</a>
 				</div>
 			</div>
 		</main>
 		<footer class="footer">
-			<hr>
 			<div class="container">
-				<div class="text-muted">
-					&copy;&nbsp;Все права защищены
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-8">
+						<div class="text-muted copyright">
+							&copy;&nbsp;Все права защищены
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<ul class="social-buttons">
+							<li><a href="#"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</footer>
+		<script src="bootstrap/jquery-3.2.1.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
 	</body>
 </html>
